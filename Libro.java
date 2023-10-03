@@ -1,7 +1,7 @@
 public class Libro {
     /**
      * definimos las variables privadas de titulo, autor y paginas(entero)
-     * 0(N) complejidad lineal
+     * complejidad O(1) constante
      */
     private String titulo;
     private String autor;
@@ -12,7 +12,7 @@ public class Libro {
      * @param titulo titulo del libro
      * @param autor autor del libro
      * @param paginas numero de paginas del libro
-     * 0(N) complejidad lineal
+     * complejidad O(1) constante
      */
     public Libro(String titulo, String autor, int paginas) {
         this.titulo = titulo;
@@ -23,7 +23,7 @@ public class Libro {
     /**
      * metodo get para el objeto Titulo
      * @return titulo del libro
-     * 0(N) complejidad lineal
+     * complejidad O(1) constante
      */
     public String getTitulo() {
         return titulo;
@@ -32,7 +32,7 @@ public class Libro {
     /**
      * método set para establecer un titulo
      * @param titulo titulo del libro
-     * 0(N) complejidad lineal
+     * complejidad O(1) constante
      */
     public void setTitulo(String titulo) {
         this.titulo = titulo;
@@ -40,7 +40,7 @@ public class Libro {
 
     /**
      * método get para obtener el autor del libro
-     * 0(N) complejidad lineal
+     * complejidad O(1) constante
      * @return autor del libro
      */
     public String getAutor() {
@@ -49,7 +49,7 @@ public class Libro {
 
     /**
      * método set para establecer un autor del libro
-     * 0(N) complejidad lineal
+     * complejidad O(1) constante
      * @param autor titulo del libro
      */
     public void setAutor(String autor) {
@@ -58,7 +58,7 @@ public class Libro {
 
     /**
      * método get para obtener el numero de paginas del libro
-     * 0(N) complejidad lineal
+     * complejidad O(1) constante
      * @return autor del libro
      */
     public int getPaginas() {
@@ -67,7 +67,7 @@ public class Libro {
 
     /**
      * método set para establecer numero de paginas de un titulo
-     * 0(N) complejidad lineal
+     * complejidad O(1) constante
      * @param paginas titulo del libro
      */
     public void setPaginas(int paginas) {

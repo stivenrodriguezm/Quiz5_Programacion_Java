@@ -2,12 +2,13 @@ import java.util.LinkedList;
 public class Biblioteca {
     /**
      * Definimos y creamos lista de libros disponibles
-     * 0(N) complejidad lineal
+     * complejidad O(1) constante
      */
     LinkedList<Libro> librosDisponibles = new LinkedList<Libro>();
 
     /**
      * Metodo para registrar un libro en la biblioteca
+     * complejidad O(1) constante
      * @param libro objeto libro
      */
     public void registrarLibro (Libro libro){
@@ -32,7 +33,7 @@ public class Biblioteca {
     /**
      * se muestran lis libros disponibles en la biblioteca
      * @return todos los libros disponibles
-     * 0(N) complejidad lineal
+     * complejidad O(1) constante
      */
     public LinkedList<Libro> mostrarLibrosDisponibles (){
         return librosDisponibles;
